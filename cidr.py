@@ -3,7 +3,7 @@ import time
  
 # Set up DynamoDB resource
 dynamodb = boto3.resource('dynamodb', region_name='us-east-1')
-table_name = 'my_tb'  # Replace with your DynamoDB table name
+table_name = 'pract_tb'  # Replace with your DynamoDB table name
 table = dynamodb.Table(table_name)
  
 # Set up EC2 resource
