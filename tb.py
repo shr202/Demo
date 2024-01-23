@@ -5,7 +5,7 @@ import ipaddress
 dynamodb = boto3.resource('dynamodb', region_name='us-east-1')
  
 # Define the table name and attributes
-table_name = 'my_tb'
+table_name = 'pract_tb'
 key_schema = [{'AttributeName': 'Sr.NO', 'KeyType': 'HASH'}]  # Primary key
 attribute_definitions = [{'AttributeName': 'Sr.NO', 'AttributeType': 'N'}]  # Attribute definition
  
